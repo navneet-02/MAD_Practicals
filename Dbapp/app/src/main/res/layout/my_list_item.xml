@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#efefef">
+
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/ic_baseline_account_box_24"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Mohit"
+            />
+
+        <TextView
+            android:id="@+id/phoneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="987654321"
+            />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="navnt@65gmail.com"
+            />
+
+        <TextView
+            android:id="@+id/occupationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tutor"
+            />
+
+
+
+    </LinearLayout>
+       
+</LinearLayout>
